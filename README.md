@@ -1,7 +1,9 @@
 # Visual Studio Code - settings and hints
+
 ## General
 
 ### Extension
+
 - [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 - Markdown All in One
@@ -9,7 +11,9 @@
 - markdownling
 
 ## Python Development
+
 ### Installed modules (via conda)
+
 - [Google Formatter for Python Files](https://github.com/google/yapf) `conda install -c conda-forge yapf`
 - [Flake8](http://flake8.pycqa.org/en/latest/) `conda install -c conda-forge flake8`
 - pytest `conda install -c conda-forge pytest`
@@ -54,7 +58,6 @@ Optionaly `conda install -c conda-forge jedi`
     ]
 ```
 
-
 #### Formating
 
 - You can configure the format provider by changing a setting in the User or Workspace settings file as follows:
@@ -72,7 +75,7 @@ column_limit=120
 
 - See also
       - [Formatting  Python in Visual Studio Code](https://donjayamanne.github.io/pythonVSCodeDocs/docs/formatting)
-      - [Google Formatter for Python Files](https://github.com/google/yapf) 
+      - [Google Formatter for Python Files](https://github.com/google/yapf)
 
 #### Linting
 
@@ -83,5 +86,3 @@ column_limit=120
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
 ```
-
-
