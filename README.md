@@ -2,10 +2,11 @@
 
 ## General
 
-### Extension
+### Extensions
 
 - [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+  - You will have to provide personal token for this extensions - see [docs on Marketplace](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-github)
 - Markdown All in One
 - Markdown Previre Github Styling
 - markdownling
