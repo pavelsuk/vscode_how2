@@ -9,7 +9,7 @@
 - [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
     - You will have to provide personal token for this extensions - see [docs on Marketplace](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-github)
-- [Start git-bash](https://marketplace.visualstudio.com/items?itemName=McCarter.start-git-bash#review-details)
+- [Start git-bash](https://marketplace.visualstudio.com/items?itemName=McCarter.start-git-bash)
 
 ### Markdown
 
@@ -43,7 +43,12 @@
 
 ### Other
 
+- [Curated list of delightful VS Code packages and resources](https://github.com/viatsko/awesome-vscode)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [Synchronization of settings](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+- [TODO Parser](https://marketplace.visualstudio.com/items?itemName=minhthai.vscode-todo-parser)
+- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
 ## Python Development
 
@@ -121,3 +126,19 @@ column_limit=120
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
 ```
+
+## Links to other list of useful extensions
+
+- [Java/HTML dev on blog.elmah.io](https://blog.elmah.io/best-visual-studio-code-extensions/)
+    - Auto Close Tag and Auto Rename Tag [HTML]
+    - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) [C#/JS/Python/...] - doesn't work correctly with `conda` environments
+    - Debugger for Chrome [JS]
+    - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+    - IntelliSense for CSS class names in HTML [html/css]
+    - TODO Highlight [html/js]
+- [The 20 Best Visual Studio Code Extensions for Front End Developers](https://www.shopify.com/partners/blog/best-visual-studio-code-extensions-2017)
+    - [Stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint) [css]
+    - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) [js]
+    - [IntelliSense for CSS class names](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+- [10 essential extensions for VS Code](https://dev.to/fbnlsr/10-essential-extensions-for-vscode-174i)
+- [Favorite Visual Studio Code Extensions of 2017](https://medium.freecodecamp.org/favorite-vs-code-extensions-2017-786ea235812f)

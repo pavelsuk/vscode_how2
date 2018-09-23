@@ -2,6 +2,8 @@
     "python.pythonPath": "C:\\dev\\Anaconda3\\envs\\py36\\python.exe",
     "cSpell.words": [
         "Intelli",
+        "Stylelint",
+        "elmah",
         "envs",
         "markdownlint",
         "pylint"
