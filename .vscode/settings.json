@@ -15,5 +15,34 @@
         "MD013": false,
         "MD024":{"siblings_only":true},
         "no-hard-tabs": false
-    }
+    },
+    "cSpell.ignorePaths": [
+        "**/package-lock.json",
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/**",
+        ".vscode",
+        "typings",
+        ".style.yapf"
+    ],
+    "cSpell.languageSettings": [
+        // This one works with python
+        {
+            "languageId": "python",
+            "includeRegExpList": [
+                "/#.*/",
+                "/\"\"\"(.*?\\n?)+?\"\"\"/g",
+                "/'''(.*?\\n?)+?'''/g"
+            ]
+        },
+        // this one works with javascript, C, typescript, etc, 
+        // but you need to copy it and change the language id.
+        {
+            "languageId": "javascript",
+            "includeRegExpList": [
+                "/\\/\\/.*/",
+                "/\\/\\*(.*?\\n?)+?\\*\\//g"
+            ]
+        }
+    ]
 }

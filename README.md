@@ -45,6 +45,42 @@
 
 - [Curated list of delightful VS Code packages and resources](https://github.com/viatsko/awesome-vscode)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+    - [FAQ + How to exclude](https://github.com/Jason-Rev/vscode-spell-checker/blob/master/client/FAQ.md) - edit either user or [workspace settings](.vscode/settings.json)
+    **Example:**
+    ``` json
+    "cSpell.ignorePaths": [
+        "**/package-lock.json",
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/**",
+        ".vscode",
+        "typings",
+        ".style.yapf"
+    ]
+    ```
+    - [Correct settings for python files](https://github.com/Jason-Rev/vscode-spell-checker/issues/107)
+    **Example:**
+    ``` json
+    "cSpell.languageSettings": [
+        // This one works with python
+        {
+            "languageId": "python",
+            "includeRegExpList": [
+                "/#.*/",
+                "/\"\"\"(.*?\\n?)+?\"\"\"/g",
+                "/'''(.*?\\n?)+?'''/g"
+            ]
+        },
+        // this one works with javascript, C, typescript, etc, 
+        // but you need to copy it and change the language id.
+        {
+            "languageId": "javascript",
+            "includeRegExpList": [
+                "/\\/\\/.*/",
+                "/\\/\\*(.*?\\n?)+?\\*\\//g"
+            ]
+        }
+    ```
 - [Synchronization of settings](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
 - [TODO Parser](https://marketplace.visualstudio.com/items?itemName=minhthai.vscode-todo-parser)
