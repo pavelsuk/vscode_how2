@@ -71,7 +71,7 @@
                 "/'''(.*?\\n?)+?'''/g"
             ]
         },
-        // this one works with javascript, C, typescript, etc, 
+        // this one works with javascript, C, typescript, etc,
         // but you need to copy it and change the language id.
         {
             "languageId": "javascript",
